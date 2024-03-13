@@ -1,0 +1,46 @@
+body{ 
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    #battlescreen {
+        display: flex;
+        width:100%;
+        justify-content: space-around;
+        #player-box{
+            align-self: center;
+        }
+    }
+    #commentary {
+        position: absolute;
+        font-size: 2rem;
+        bottom: 20vh;
+    }
+    #moves {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 100vw;
+        bottom: 5vh;
+        button {
+            position: block;
+            margin:0;
+            padding:0;
+            width: 20%;
+            font-size: 2rem;
+        }
+    }
+    #battle,#start {
+        position: absolute;
+    }
+    #start {
+        left: 60%;
+    }
+    #battle-log {
+        position: absolute;
+        top: 5vh;
+        left: 5vw;
+        width: 90vw;
+        height: 20vh;
+        overflow: auto;
+    }
+}
